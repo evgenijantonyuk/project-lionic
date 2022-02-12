@@ -1,17 +1,77 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+};
+
+/* glob */
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: "font", sans-serif;
+}
+
+/* glob */
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .header {
+    padding: 36px 0;
 }
-.conteiner { 
+
+.header-container {
+    align-items: center;
 }
+
 .header-logo {
+    margin-right: auto;
 }
 .header-nav {
+    margin-right: 52px;
 
 }
-.header-list { display: flex;
-    
+.header-list {
 }
-.header-list-item {margin: 30px;
-    list-style: none;
+.header-list-item:not(:last-child) {
+    margin-right: 52px;
 }
 .header-link {
 }
@@ -23,8 +83,7 @@
 }
 .hero {
 }
-.container {
-}
+
 .hero-content {
 }
 .hero-titel {
@@ -37,15 +96,27 @@
 }
 .services {
 }
+
 .section-title {
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 .servises-title {
 }
 .section-descr {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.section-offset{
+    padding-top: 87px;
+    padding-bottom: 160px;
 }
 .servises-descr {
+    margin: 0;
+    margin-bottom: 50px;
 }
-.services-items { list-style: none;
+.services-items { 
 }
 .services-item {
 }
@@ -59,7 +130,7 @@
 }
 .article-title {
 }
-.articles-list { list-style: none;
+.articles-list {
 }
 .articles-item {
 }
@@ -85,7 +156,7 @@
 }
 .clients-list {
 }
-.clients-item { list-style: none;
+.clients-item { 
 }
 .clients-item-descr {
 }
@@ -111,7 +182,7 @@
 }
 .contacts-list {
 }
-.contacts-item { list-style: none;
+.contacts-item { 
 }
 .contacts-item-caption {
 }
@@ -135,7 +206,7 @@
 }
 .footer-list {
 }
-.footer-item { list-style: none;
+.footer-item {
 }
 .footer-link {
 }
