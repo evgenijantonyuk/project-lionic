@@ -361,6 +361,11 @@ body {
 .sectin-title {
 }
 .contacts-title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 130%;
+    color: #1C1C1C;
+
 }
 .contacts-adres {
     font-style: normal;
@@ -414,7 +419,106 @@ body {
     color: #787878;
 }
 
+.join-us-title {
+    text-align: center;
+}
+
+.join-us-descr{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.join-us {
+    border-bottom: 1px solid #dadada;
+}
+
+.form-inut {
+    border: 1px solid #dadada;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 16px 28px;
+    margin-bottom: 20px;
+    width: 251px;
+    height: 60px;
+}
+
+.form-select {
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 16px 28px;
+    width: 251px;
+    height: 60px;
+}
+
+.form-textarea {
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    border-radius: 20px;
+    resize: none;
+    padding: 16px 28px;
+    width: 100%;
+    height: 90%;
+}
+
+.form-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.form-right {
+    width: 49%;
+}
+
+.form-left {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-btn {
+    min-width: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    margin-bottom: 9px;
+}
+
+.form-check {
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.form-check input {
+    margin-right: 8px;
+}
+
+.form-check a {
+    color: #3172B9;
+    border-bottom: 1px solid #3172b9;
+}
+
 .footer {
+    padding-top: 45px;
 }
 
 .foter-conteiner {
@@ -474,4 +578,12 @@ body {
 }
 .social-link-mail {
     background-image: url("../img/letter.svg");
+}
+
+.details {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #1c1c1c;
+    margin-left: 460px;
 }
