@@ -124,7 +124,7 @@ body {
 
 /* section-hero */
 
-.section-hero-container {
+.section-hero__container {
     padding-top: 120px;
     padding-bottom: 130px;
 }
@@ -135,11 +135,11 @@ body {
     background-size: auto 100%;
 }
 
-.section-hero-content {
+.section-hero__content {
     max-width: 44%;
 }
 
-.section-hero-titel {
+.section-hero__titel {
     margin-bottom: 20px;
     font-weight: 300;
     font-size: 40px;
@@ -147,14 +147,14 @@ body {
     color: #1c1c1c;
 }
 
-.section-hero-descr {
+.section-hero__descr {
     margin-bottom: 30px;
     font-size: 16px;
     line-height: 155%;
     color: #787878;
 }
 
-.section-hero-btn {
+.section-hero__btn {
     margin-bottom: 14px;
     min-width: 250px;
     height: 58px;
@@ -162,14 +162,14 @@ body {
     margin-bottom: 14px;
 }
 
-.section-hero-wrapper {
+.section-hero__wrapper {
     display: inline-block;
 }
 
 .services-item-icon {
 }
 
-.section-hero-secur {
+.section-hero__secur {
     font-weight: 400;
     margin-left: 35px;
     font-size: 11px;
